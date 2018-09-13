@@ -1,0 +1,563 @@
+@media only screen and (min-width: 1000px) and (max-width: 1150px) {
+    
+  .float_left li.search {
+    display: none;
+  }
+
+  .navigation_bar ul.float_left li a {
+    font-size: 16px;
+  }
+
+  .navigation_bar ul.float_left li {
+    margin: 0;
+  }
+
+  .navigation_bar .float_left {
+    width: 57%;
+  }
+    
+  .float_left li.products {
+    width: 166.94px;
+  }
+
+  .float_left li.developers {
+    width: 104px;
+  }
+
+  ul.float_left li.blog {
+    width: 52px;
+  }
+
+  .float_left li.why_triton {
+    width: 101.44px;
+  }
+
+  .float_left li.pricing,
+  .float_left li.about_us {
+    width: 70px;
+    white-space: nowrap;
+  } 
+
+  .float_left li.sign_in {
+    width: 69px;
+  }
+
+  .navigation_bar div.joynet_home {
+    width: 140px;
+  }
+
+  .navigation_bar > .float_left {
+    width: 63.5%;
+  }
+
+  .networking_and_security.management {
+    bottom: 688px;
+    left: 430px;
+    width: 50%;
+  }
+
+  .networking_and_security {
+    bottom: 423px;
+    left: 240px;
+    word-break: break-all;
+    font-size: 0.5em;
+    width: 20%;
+    letter-spacing: -1px;
+  }
+
+  .networking_and_security.services {
+    bottom: 954px;
+    left: 590px;
+  }
+
+  .container_one.converged {
+    left: 313px;
+    height: 360px;
+    bottom: 210px;
+    overflow: hidden;
+  }
+
+  .container_one.converged,
+  .networking_and_security {
+    position: relative;
+  }
+
+  .navigation_bar div.container_one {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+    width: 42%;
+    height: 210px;
+    margin: 0 10px 0 10px;
+  }
+
+  .left_blank_container {
+    width: 2.65%;
+  }
+   
+  .outer_logo_container {
+    height: 146px;
+    width: 104%;
+  }
+
+  .empty_space_after_links_footer {
+    height: 38px;
+  }
+
+  .right_footer_container {
+    width: 90.28%;
+  }
+
+  .last_footer_part {
+    height: 31px;
+  }
+
+  .footer_icon > h2 {
+    font-size: 24px;
+    width: 70%;
+    text-align: left;
+    float: right;
+  }
+
+  .footer_triton_text  {
+    width: 67%;
+    line-height: 33px;
+  }  
+}
+
+@media (min-width: 580px) and (max-width: 900px) {
+  
+  li.products::after {
+    content: " ";
+  }   
+
+  li.about_us::after {
+    content: " ";
+  }
+}
+
+@media (min-width: 1193px) and (max-width: 1920px) {
+  
+  li.about_us a::after {
+    content: " Us";
+    white-space: nowrap;
+  }  
+}
+
+@media (min-width: 993px) and (max-width: 1920px) {
+ 
+  li.products a::after {
+    content: " & Services";
+    font-size: 18px;
+  }
+}
+
+/*------------  For Medium screen sized Tablet and ipad  -----*/
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+
+  div.silver_triton .trion_icon {
+    height: 36px;
+  }
+
+  .first_tab div.silver_triton {
+    height: 73.5%;
+  }
+
+  div.silver_triton .trion_icon img,
+  .linear_color_trition .orange_image img {
+    width: 52%;
+    margin-left: 13px;
+  }
+
+  .space_in_orange {
+    height: 9px;
+  }
+
+  .orange_triton_box_text {
+    font-size: 14.5px;
+    line-height: 15px;
+  }
+
+  .space_below_silver_triton + .linear_color_trition {
+    height: 66.5%;
+  } 
+
+  .button_orange {
+    width: 146px;
+    height: 43px;
+  }
+
+  .first_tab div.silver_triton .learn_more,
+  .free_trial_button {
+    margin-top: 5px;
+  }
+
+  .navigation_bar ul.float_left li a {
+    font-weight: 400;
+    line-height: 18px;  
+  }
+
+  .button_orange,
+  .navigation_bar ul.float_left li a {
+    font-size: 14px;    
+  }
+
+  .products .product_and_services_dropdown {
+    height: 485px;
+    width: 100%;
+  }
+  
+  .float_left li.products {
+    width: 74.06px;
+    word-break: keep-all;
+  }
+  
+  .float_left li.developers {
+    width: 89.77px;
+  }
+  
+  ul.float_left li.blog {
+    width: 44.7px;
+  }
+
+  .float_left li.pricing,
+  .float_left li.about_us {
+    width: 60.16px;
+  } 
+
+  .navigation_bar ul.float_left > li {
+    padding-top: 16px;
+    margin: 0;
+  }
+  
+  .inner_container {
+    display: inherit;
+  }
+    
+  ul.float_left li.search,
+  ul.float_left li.sign_in,
+  .float_left > li.search {
+    display: none;
+  }
+      
+  .left_section_inner_container > div.upper_text,
+  .float_left .blog {
+    float: left;
+  }  
+  
+  .fluid_left + .fluid_right {
+    width: 112.3%;
+    left: 230px;
+    right: 0;
+    bottom: 441px;
+  }  
+
+  .outer_fluid > .fluid_left {
+    margin-left: 2px;
+    width: 29.5%;
+  }  
+    
+  .container_one > .img_compute,
+  .container_one > .img_storage,
+  .container_one > .img_converged {
+    background-size: 40%;
+    height: 60px;
+  }
+
+  .fluid_left .container_one {
+    height: 140px;
+    margin-left: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+
+  .inner_container,
+  .fluid_left .container_one {
+    width: 95%;
+  }
+
+  .compute_heading,
+  .storage_heading,
+  .converged_heading {
+    font-size: 0.8em;
+  }
+
+  .fluid_right .networking_and_security {
+    left: 141px;
+    width: 18%; 
+    height: 420px;
+  }
+
+  .container_one  .compute_text,
+  .container_one .storage_text_upper,
+  .container_one .converged_text_upper {
+    margin-bottom: 18px;
+    font-size: 0.5em;
+    line-height: 3px;
+  }
+ 
+  .fluid_right .management {  
+    width: 16.5%;
+  }
+
+  .fluid_right .services {
+    left: 121px;
+    bottom: 0;
+  }
+
+  .divider + .last_footer_part {
+    margin: 7px 0 10px 0;
+  }
+
+  .fluid_right .services,
+  .fluid_right .management,
+  .fluid_right .networking_and_security,
+  .fluid_left + .fluid_right {
+    position: relative;
+  }
+  
+  div.right_footer_container .outer_logo_container {
+    height: 196px;
+    width: 112%;
+  }
+
+  .outer_logo_container > .footer_triton_text {
+    width: 470px;
+    font-size: 28px;
+  }
+ 
+  .footer_icon > h2 {
+    text-align: left;
+  }
+    
+  .footer_triton_text + .footer_icon {
+    max-width: 21%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .footer_style .left_blank_container {
+    width: 2.91%;
+  }
+    
+  div.footer_icon ul li {
+    margin: 3px;
+  }
+    
+  div.divider {
+    width: 108%;
+  }
+
+  div.divider > hr {
+    height: 2px;
+  }
+
+  .footer_style .first_row_ul {
+    width: 28%;
+  }
+      
+  .link_about.footer_row_one_links {
+    width: 129px;
+    padding-left: 18px;
+  } 
+
+  .footer_triton_text + .footer_icon,
+  .outer_fluid > .fluid_left {
+    height: auto;
+  }
+}
+
+/*-------------- For Extra Small Screen Size ---------------*/
+@media only screen and (max-width: 767px) {
+
+  body nav.navigation_bar {
+    position: static;
+    background: #031C2C;
+  }
+
+  .footer_list,
+  .footer_style .outer_logo_container > .footer_triton_text,
+  .main_header.full_width,
+  .inner_container > div.left_section_inner_container {
+    width: 100%;
+  }
+
+  .nav_button {
+    background: url(img/nav_button.jpg) no-repeat 0 23px ;
+    width: 40px;
+    height: 99%;
+    display: block;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+   
+  .joynet_home {
+    padding-left: 0;
+    margin-left: 0;
+  } 
+
+  .joynet_home img {
+    max-width: 140px;
+  }
+
+  .footer_row_one_links,
+  .navigation_bar ul li,
+  .display_none_in_xs {
+    display: none;
+  }
+
+  .footer_style .outer_logo_container > .footer_triton_text {
+    font-size: 1.85em;
+    line-height: 32px;
+    padding: 10px 0 0 15px;
+  }
+
+  .navigation_bar > .free_trial > a {
+    font-size: .9em;
+    font-weight: 800;
+    left: 1.5px;
+    width: 60%;
+    padding: 0;
+  }
+
+  .navigation_bar > .free_trial {
+    width: 90px;
+    right: 0;
+    bottom: 70px;
+  }
+
+  .left_section_inner_container .upper_text {
+    margin-bottom: 8px;
+  } 
+
+  .list_elements_human_resource > h3 {
+    right: 8px;
+  }
+
+  .main_header > .space_from_top {
+    height: 26px;
+  }
+
+  nav + div.main_header {
+    height: 125px;
+  }
+
+  .outer_logo_container > .footer_icon {
+    width: 85%;
+    height: 120px;
+  }
+
+  .outer_logo_container > .footer_icon ul {
+    margin-left: 19px;
+  }
+
+  .nav_button,
+  .outer_logo_container > .footer_icon ul,
+  .outer_logo_container > .footer_icon {
+    float: left;
+  }
+
+  .outer_logo_container > .footer_icon > h2 {
+    font-size: 21px;
+    text-align: left;
+    margin-left: 13px;
+    margin-top: 20px;
+    white-space: nowrap;
+  }
+
+  .divider hr {
+    top: 10px;
+  }
+ 
+  body .footer_style {
+    height: 514px; 
+  }
+
+  .footer_style .right_footer_container,
+  div.left_blank_container {
+    height: 360px;
+  }
+
+  .footer_style div.divider {
+    top: 200px;
+    width: 114.9%;
+  }
+
+  .spacing_after_header + div > a.bottom_mail_link {
+    z-index: 1000;
+  }
+
+  .footer_style div.divider,
+  .position_in_xs {
+    position: relative;
+  }
+
+  .bold_text {
+    height: 140px;
+  }
+
+  .label_connect_with_joyent_heading {
+    font-size: 2.62em;
+    line-height: 38px;
+    margin: auto;
+  }
+
+  .main_header {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+/* -----------------------------Responsive for right side silver and orange tiles of bigger screen --------------------*/
+
+@media screen and (min-width: 767px) and (max-width: 1360px) {
+  
+  .first_tab div.silver_triton {
+    height: 87.5%;
+  }
+
+  .space_below_silver_triton + .linear_color_trition {
+    height: 77.5%    
+  }
+
+  .orange_triton_box_text,
+  .sign_up_now_label_silver_box {
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  .inner_container {
+    display: inherit;
+    width: 93%;
+  }
+   
+  .first_tab div.silver_triton .learn_more {
+    clear: left;
+    padding-top: 2px;
+    float: left;
+  }
+   
+  div.silver_triton .trion_icon img,
+  .linear_color_trition .orange_image img {
+    width: 55%;
+    margin-left: 13px;
+  }
+
+  div.silver_triton .trion_icon {
+    height: 60px;
+  }
+   
+  .sign_up_now_label_silver_box {
+    width: 80%;
+  }
+
+  .silver_triton > .space_in_silvier {
+    height: 13px;
+  }
+
+  .first_tab div.silver_triton .learn_more,
+  .free_trial_button {
+    margin-top: 10px;
+  }   
+}
